@@ -33,7 +33,7 @@
 ```js
 const { pinkFork } = require("pink-fork");
 pinkFork({
-  onError: (err, type) => {
+  onExit: (err, type) => {
     console.error(err, type);
   },
   worker: () => import("./app"),
