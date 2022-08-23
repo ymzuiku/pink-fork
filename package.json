@@ -1,0 +1,31 @@
+{
+  "name": "pink-fork",
+  "version": "0.1.3",
+  "main": "cjs/index.js",
+  "private": false,
+  "types": "lib/index.ts",
+  "description": "🐤  auto fork",
+  "keywords": [
+    "nodejs",
+    "pool"
+  ],
+  "scripts": {
+    "example": "bike example/index.ts dist/index.js --dev",
+    "example2": "bike example/index.ts dist/index.js --watch",
+    "build": "bike lib/index.ts cjs/index.js"
+  },
+  "dependencies": {
+    "fastify": "^4.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymzuiku/yellow-duck.git"
+  },
+  "bugs": {
+    "url": "git+https://github.com/ymzuiku/yellow-duck.git"
+  },
+  "homepage": "git+https://github.com/ymzuiku/yellow-duck.git",
+  "devDependencies": {
+    "pm2": "^5.2.0"
+  }
+}
